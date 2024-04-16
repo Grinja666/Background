@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: url(https://cdn.pixabay.com/photo/2019/04/10/11/56/watercolor-4116932_640.png) no-repeat left center fixed;
+            background-size: cover;
+            margin: 0; 
+        }
+
+        #textContainer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 20px; 
+            color: black;
+            font-size: 45px; 
+            z-index: 1; 
+        }
+
+        #gifContainer {
+            background: url(https://media1.giphy.com/media/WNn5peLOciw3rNxCV8/source.gif) no-repeat right bottom;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            z-index: -1;
+        }
+    </style>
+    <title>Задній фон і текст</title>
+</head>
+<body>
+    <div id="textContainer">
+        <p>Ми вивчаємо роботу з зображенням</p>
+    </div>
+
+    <div id="gifContainer"></div>
+</body>
+</html>
